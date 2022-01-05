@@ -1,0 +1,65 @@
+* {box-sizing: border-box;}
+
+
+.form{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 500px;
+    margin-top: 300px;
+}
+/* Style the input container */
+.input-container {
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+/* Style the form icons */
+.icon {
+  padding: 10px;
+  background: rgb(255, 255, 255);
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+/* Style the input fields */
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+
+.input-field:focus {
+  border: 2px solid rgb(209, 223, 236);
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: dodgerblue;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+body{
+    image-size:100% ;
+    background:url(../img/dark.jpg) center ;
+}
+
+.btn{
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+}
+
+.main_text{
+	display: block;
+	text-align: center;
+}
